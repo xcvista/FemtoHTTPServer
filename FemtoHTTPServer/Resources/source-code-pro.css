@@ -1,0 +1,21 @@
+@font-face
+{ 
+    font-family: 'Source Code Pro Web';
+    font-weight: normal;
+    src: url('scp-l.eot');
+    src: url('scp-l.eot?#iefix') format('embedded-opentype'),
+         url('scp-l.woff') format('woff'),
+         url('scp-l.ttf') format('truetype'),
+         url('scp-l.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'Source Code Pro Web';
+    font-weight: bold;
+    src: url('scp-m.eot');
+    src: url('scp-m.eot?#iefix') format('embedded-opentype'),
+         url('scp-m.woff') format('woff'),
+         url('scp-m.ttf') format('truetype'),
+         url('scp-m.svg#webfont') format('svg');
+}

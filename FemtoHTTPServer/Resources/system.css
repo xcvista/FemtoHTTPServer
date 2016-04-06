@@ -1,0 +1,189 @@
+﻿*
+{
+    box-sizing: border-box;
+    -moz-border-sizing: border-box;
+    -webkit-border-sizing: border-box;
+    -ms-border-sizing: border-box;
+    -o-border-sizing: border-box;
+}
+
+body
+{
+    font-family: "SF UI Web", Roboto, Verdana, Geneva, Tahoma, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: black;
+
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h1
+{
+    font-size: 24px;
+}
+
+h2
+{
+    font-size: 20px;
+}
+
+h3
+{
+    font-size: 18px;
+}
+
+h4
+{
+    font-size: 14px;
+}
+
+a
+{
+    transition-duration: 0.2s;
+}
+
+a:link, a:visited
+{
+    text-decoration: none;
+    color: #666;
+}
+
+a:active, a:hover
+{
+    text-decoration: underline;
+    color: #999;
+}
+
+code, kbd, pre
+{
+    font-family: "Source Code Pro Web", "Courier New", Courier, monospace;
+    font-size: 14px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+}
+
+code, pre
+{
+    background-color: #ccc;
+}
+
+code, kbd
+{
+    border-radius: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+pre
+{
+    border-radius: 8px;
+    padding: 8px;
+    overflow: auto;
+}
+
+table
+{
+    display: block;
+    overflow: auto;
+    border-collapse: collapse;
+}
+
+tbody
+{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333;
+}
+
+th, td
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #333;
+}
+
+hr
+{
+    border-style: none;
+    height: 1px;
+    background-color: #999;
+}
+
+/* Layout elements */
+
+body
+{
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+header#page-header
+{
+    background-color: #333;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+
+    padding: 8px;
+    vertical-align: middle;
+}
+
+header#page-header h1
+{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+header#page-header a:link, header#page-header a:visited
+{
+    color: white;
+}
+
+header#page-header a:active, header#page-header a:active
+{
+    color: #ccc;
+}
+
+div#page
+{
+    padding: 8px;
+}
+
+footer#page-footer
+{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 44px;
+
+    padding: 8px;
+    vertical-align: middle;
+
+    background-color: white;
+    color: #333;
+
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #333;
+}
+
+footer#page-footer address
+{
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}

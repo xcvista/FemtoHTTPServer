@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Error 500 &middot; Internal server error</title>
+    <link rel="stylesheet" type="text/css" href="/.femto/system.css" />
+    <link rel="stylesheet" type="text/css" href="/.femto/sfui.css" />
+    <link rel="stylesheet" type="text/css" href="/.femto/scp.css" />
+    <link rel="icon" type="image/x-icon" href="/.femto/femto.ico" />
+</head>
+<body>
+    <header id="page-header">
+        <h1>Error 500 &middot; Internal server error</h1>
+    </header>
+    <div id="page">
+        <p>The server crashed servicing your request.</p>
+        <hr />
+        <h2>Technical Details</h2>
+        <p><span style="font-weight: bold">Exception:</span> <code>{0}</code></p>
+        <p><span style="font-weight: bold">Reason:</span> <code>{1}</code></p>
+        <p><span style="font-weight: bold">Stack trace:</span><br /><pre>{2}</pre></p>
+    </div>
+    <footer id="page-footer">
+        <address><a href="/.femto/femto.html">FemtoHTTPServer</a> 1.0 &middot; &copy; 2016 <a href="https://en.maxchan.info/">Max Chan</a>. All rights reserved.</address>
+    </footer>
+</body>
+</html>

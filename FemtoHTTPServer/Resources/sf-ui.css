@@ -1,0 +1,47 @@
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: normal;
+    font-weight: normal;
+    src: url('sfui-l.eot');
+    src: url('sfui-l.eot?#iefix') format('embedded-opentype'),
+         url('sfui-l.woff') format('woff'),
+         url('sfui-l.ttf') format('truetype'),
+         url('sfui-l.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: italic;
+    font-weight: normal;
+    src: url('sfui-li.eot');
+    src: url('sfui-li.eot?#iefix') format('embedded-opentype'),
+         url('sfui-li.woff') format('woff'),
+         url('sfui-li.ttf') format('truetype'),
+         url('sfui-li.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: normal;
+    font-weight: bold;
+    src: url('sfui-m.eot');
+    src: url('sfui-m.eot?#iefix') format('embedded-opentype'),
+         url('sfui-m.woff') format('woff'),
+         url('sfui-m.ttf') format('truetype'),
+         url('sfui-m.svg#webfont') format('svg');
+}
+
+@font-face
+{ 
+    font-family: 'SF UI Web';
+    font-style: italic;
+    font-weight: bold;
+    src: url('sfui-mi.eot');
+    src: url('sfui-mi.eot?#iefix') format('embedded-opentype'),
+         url('sfui-mi.woff') format('woff'),
+         url('sfui-mi.ttf') format('truetype'),
+         url('sfui-mi.svg#webfont') format('svg');
+}

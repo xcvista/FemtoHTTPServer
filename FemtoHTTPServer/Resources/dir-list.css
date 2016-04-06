@@ -1,0 +1,41 @@
+﻿table#dir-list tbody
+{
+    border-style: none;
+}
+
+table#dir-list th, table#dir-list td
+{
+    border-style: none;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+table#dir-list th
+{
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #333;
+}
+
+i.directory, i.file, i.back
+{
+    color: transparent !important;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+}
+
+i.directory
+{
+    background-image: url("/.femto/directory.png");
+}
+
+i.file
+{
+    background-image: url("/.femto/file.png");
+}
+
+i.back
+{
+    background-image: url("/.femto/back.png");
+}
