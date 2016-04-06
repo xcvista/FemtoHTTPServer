@@ -124,7 +124,7 @@ namespace FemtoHTTPServer
             {
                 validator.Prefixes.Add(e.Label);
             }
-            catch (Exception ex)
+            catch
             {
                 MessageBox.Show(this, Properties.Resources.ERR_PORT_SYNTAX, Properties.Resources.UI_ERROR_TITLE, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 e.CancelEdit = true;
