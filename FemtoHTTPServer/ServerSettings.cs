@@ -47,6 +47,7 @@ namespace FemtoHTTPServer
         {
             WebRoot.Text = Properties.Settings.Default.WebRoot;
 
+            Ports.Items.Clear();
             foreach (var key in Properties.Settings.Default.Prefixes)
             {
                 Ports.Items.Add(key);
@@ -143,6 +144,12 @@ namespace FemtoHTTPServer
             {
                 Ports.SelectedItems[0].BeginEdit();
             }
+        }
+
+        private void ResetSettingsEx(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.Reset();
+            InitializeUserInterface(sender, e);
         }
     }
 }

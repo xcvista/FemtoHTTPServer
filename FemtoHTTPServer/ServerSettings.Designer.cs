@@ -178,6 +178,7 @@
             this.ResetSettings.TabIndex = 11;
             this.toolTip.SetToolTip(this.ResetSettings, "Reset all settings.");
             this.ResetSettings.UseVisualStyleBackColor = true;
+            this.ResetSettings.Click += new System.EventHandler(this.ResetSettingsEx);
             // 
             // ServerSettings
             // 
