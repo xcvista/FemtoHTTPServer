@@ -96,12 +96,12 @@ namespace FemtoHTTPServer.Properties {
         ///&lt;head&gt;
         ///    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot; /&gt;
         ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
-        ///    &lt;title&gt;Directory {0}&lt;/title&gt;
+        ///    &lt;title&gt;Directory &amp;middot; {0}&lt;/title&gt;
         ///    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/.femto/system.css&quot; /&gt;
         ///    &lt;link rel=&quot;stylesheet&quot; type=&quot;text.css&quot; href=&quot;/.femto/dir-list.css&quot; /&gt;
         ///    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/.femto/sfui.css&quot; /&gt;
         ///    &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;/.femto/scp.css&quot; /&gt;
-        ///    &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/.femto/femto.ico&quot; / [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///    &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;/.femto/fem [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string DIRLIST_TEMPLATE {
             get {
@@ -200,6 +200,16 @@ namespace FemtoHTTPServer.Properties {
         internal static string EXCEPTION_TEMPLATE {
             get {
                 return ResourceManager.GetString("EXCEPTION_TEMPLATE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] FEMTO_HTML {
+            get {
+                object obj = ResourceManager.GetObject("FEMTO_HTML", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         

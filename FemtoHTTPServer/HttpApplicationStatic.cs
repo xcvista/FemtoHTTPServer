@@ -18,9 +18,6 @@ namespace FemtoHTTPServer
 
             switch (resourceKey)
             {
-                case "femto.html":
-                    break;
-
                 case "femto.ico":
                     Favicon(ctx);
                     break;

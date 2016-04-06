@@ -158,6 +158,9 @@
   <data name="EXCEPTION_TEMPLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\exception.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="FEMTO_HTML" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\femto.html;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="FILE_NOT_FOUND_TEMPLATE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\file-not-found.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

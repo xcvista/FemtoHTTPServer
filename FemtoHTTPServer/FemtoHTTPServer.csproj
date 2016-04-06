@@ -177,6 +177,7 @@
     <Content Include="Resources\dir-list.html" />
     <None Include="Resources\document_16xLG.png" />
     <Content Include="Resources\exception.html" />
+    <Content Include="Resources\femto.html" />
     <Content Include="Resources\file-not-found.html" />
     <None Include="Resources\sourcecodepro-medium-webfont.svg" />
     <None Include="Resources\sourcecodepro-light-webfont.svg" />
