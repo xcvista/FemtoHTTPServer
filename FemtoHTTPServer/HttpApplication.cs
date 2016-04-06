@@ -92,10 +92,19 @@ namespace FemtoHTTPServer
             }
         }
 
+        ServerSettings serverSettings;
+
         private void OpenSettings(object sender, EventArgs e)
         {
             if (server.IsListening)
                 return;
+
+            startServer.Enabled = false;
+
+            serverSettings = new ServerSettings();
+            serverSettings.Show(result => {
+                startServer.Enabled = true;
+            });
         }
 
         private void StartServer(object sender, EventArgs e)

@@ -138,6 +138,33 @@ namespace FemtoHTTPServer.Properties {
         }
         
         /// <summary>
+        ///   查找类似 At least one listening port required. 的本地化字符串。
+        /// </summary>
+        internal static string ERR_NO_PORT_DEFINED {
+            get {
+                return ResourceManager.GetString("ERR_NO_PORT_DEFINED", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Web Root path invalid. 的本地化字符串。
+        /// </summary>
+        internal static string ERR_PATH_INVALID {
+            get {
+                return ResourceManager.GetString("ERR_PATH_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Port designator have to follow this format: http://*:1234/ 的本地化字符串。
+        /// </summary>
+        internal static string ERR_PORT_SYNTAX {
+            get {
+                return ResourceManager.GetString("ERR_PORT_SYNTAX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 You are not allowed to load this file. 的本地化字符串。
         /// </summary>
         internal static string ERR_UNAUTHORIZED {
@@ -551,6 +578,16 @@ namespace FemtoHTTPServer.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap UI_ADD {
+            get {
+                object obj = ResourceManager.GetObject("UI_ADD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap UI_CLOSE {
             get {
                 object obj = ResourceManager.GetObject("UI_CLOSE", resourceCulture);
@@ -573,6 +610,26 @@ namespace FemtoHTTPServer.Properties {
         internal static System.Drawing.Bitmap UI_OPEN_SETTINGS_IMG {
             get {
                 object obj = ResourceManager.GetObject("UI_OPEN_SETTINGS_IMG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap UI_REMOVE {
+            get {
+                object obj = ResourceManager.GetObject("UI_REMOVE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap UI_RESET {
+            get {
+                object obj = ResourceManager.GetObject("UI_RESET", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
